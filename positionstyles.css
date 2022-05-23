@@ -44,16 +44,25 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  position: relative;
+  bottom:55px;
+  left: 40px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  position: relative;
+  bottom: 105px;
+  left:80px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  position: relative; 
+  bottom: 155px;
+  left: 125px;
 } 
 /* Activity 3 styles */ 
 .content3 {
