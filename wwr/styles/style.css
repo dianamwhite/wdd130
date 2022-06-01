@@ -87,6 +87,7 @@ main, .home-grid{
 }
 
 header{ background-color: #1d4e89;
+
 }
 
 nav a:hover{
@@ -222,10 +223,11 @@ h2{
 
  .card-img:hover {
     opacity: .6;
-    transform: scale (1.1);
+    transform: scale(1.1);
+ }
 
-    
- }@media screen and (max-width: 900px) {
+
+ @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
