@@ -11,6 +11,7 @@ body{
 header{
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #1d4e89;
 }
 
 nav{
@@ -33,7 +34,7 @@ nav a{
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    
 }
 
 #hero-box{
@@ -86,9 +87,6 @@ main, .home-grid{
     grid-row: 4/9;
 }
 
-header{ background-color: #1d4e89;
-
-}
 
 nav a:hover{
     background-color: #B0EDF5;
