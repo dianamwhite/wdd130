@@ -241,7 +241,7 @@
     #river-hero-msg{
         grid-column:2/3;
         grid-row: 3/4; 
-        margin-top: -400px;
+        margin-top: -600px;
     }
     #river-hero-img{
         width: 100%;
@@ -264,10 +264,12 @@
         margin-top: 50px;
     }
 
-    .river-ms p2{
+    .river-msg, p2{
         color:black;
         font-size: .9em;
         padding-bottom: 15px;
+        text-align:left;
+        margin-top: 40px;
     }
 
 
