@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+main{
+    width:300px;
+    background-color: white;
+}
+.smallest{
+    color:#4a6189;
+}
+
+#msg-sanfran{
+    text-align: center;
+    font-size: 18px;
+    padding: 12%;
+    margin-top: auto;
+}
+footer{
+    grid-column: 2/3;
+}
+
+footer, .bottom{
+    width: 300px;
+    background-color: #4a6189;
+}
+
+.bottomtext{
+    font-size: 20px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 5%;
+}
