@@ -1,12 +1,16 @@
 body{
-    background-color: antiquewhite;
+    background-color:black;
+
 }
-main{
+main, img{
     width:300px;
     background-color: white;
+    border-radius: 20px 20px 0 0;
+
 }
-.smallest{
+h1{
     color:#4a6189;
+    font-size: 12px;
 }
 
 #msg-sanfran{
@@ -16,19 +20,19 @@ main{
     margin-top: auto;
 }
 footer{
-    grid-column: 2/3;
-}
-
-footer, .bottom{
     width: 300px;
-    background-color: #4a6189;
+    background-color:#4a6189;
+    border-radius: 0 0 20px 20px;
 }
 
-.bottomtext{
-    font-size: 20px;
-    color: white;
+
+.bottomtext {
+    width: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    color: white;
+    font-size: 18px;
     text-align: center;
-    padding: 5%;
 }
+
