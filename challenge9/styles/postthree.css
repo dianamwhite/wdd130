@@ -6,9 +6,8 @@ main, img{
     width:300px;
     background-color: white;
     border-radius: 20px 20px 0 0;
-    
-
 }
+
 h1{
     color:#4a6189;
     font-size: 12px;
@@ -26,12 +25,12 @@ footer{
     border-radius: 0 0 20px 20px;
 }
 
-
 .bottomtext {
     width: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .bottomtext p{
     color: white;
     font-size: 18px;
