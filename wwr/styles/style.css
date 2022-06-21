@@ -273,6 +273,10 @@
         margin-top: 40px;
     }
 
+    .rivers-grid img{
+        max-width: 100%;
+    }
+    
     /*contact us*/
 
     form {
@@ -361,10 +365,8 @@
                     
                     
 
-
-
  @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid{
         display: block;
         height: auto;
     }
