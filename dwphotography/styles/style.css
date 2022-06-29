@@ -83,13 +83,30 @@ h2{
  /* center*/
 
  main{
-     border: 2px solid white;
      display: grid;
      grid-template-columns: 1fr 1fr;
+     margin-top: 60px;
  }
 
- .img1{
-    border: 2px solid red;
+.img1{
     display:grid;
     grid-template-columns:1fr;
+    margin: 0 auto;   
  }
+
+.sidetext{
+     width: 60%;
+ }
+
+.view-img1{
+     margin-bottom: 30px;
+ }
+
+.view-img2{
+    margin-bottom: 30px;
+}
+
+.view-img3{
+    margin-bottom: 20px;
+}
+
