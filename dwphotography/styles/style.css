@@ -94,7 +94,7 @@ h2{
      margin-top: 60px;
  }
 
-.img1{
+#img1{
     display:grid;
     grid-template-columns:1fr;
     margin: 0 auto;   
