@@ -80,7 +80,7 @@ h1{
 
 h2{
     font-family: "Open Sans";
-    font-size: 20px;
+    font-size: 25px;
     color: whitesmoke;
     opacity: 80%;
 }
@@ -100,15 +100,16 @@ h2{
 
 .sidetext{
      width: 60%;
-     color: white;
  }
 
  .home-grid h2{
     font-size: 30px; 
  }
 
- p{
+p{
     font-family: "Open Sans";
+    font-size: 18px;
+    color:white;
  }
 
 .view-img1{
@@ -153,4 +154,27 @@ h3 a{
 
 nav a:hover{
     color:#151C0D;
+}
+
+/*subpage 1- about me*/
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-img{
+    width: 80%;
+    grid-column: 1/2;
+}
+.about-title{
+    font-family: "Cormorant Garamond", bold;
+    font-size: 90px;
+    color:#fefae0;
+    opacity: 70%;
+}
+
+.about-p {
+    width: 80%;
+    margin-top: -50px;
 }
