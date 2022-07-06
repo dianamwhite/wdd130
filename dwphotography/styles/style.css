@@ -154,6 +154,8 @@ h3 a{
 
 nav a:hover{
     color:#151C0D;
+    background-color: #fefae0;
+    opacity: 40%;
 }
 
 /*subpage 1- about me*/
@@ -161,6 +163,9 @@ nav a:hover{
 .about-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #DDA15e;
+    width: 100%;
+    height: auto;
 }
 
 .profile-img{
@@ -171,10 +176,33 @@ nav a:hover{
     font-family: "Cormorant Garamond", bold;
     font-size: 90px;
     color:#fefae0;
-    opacity: 70%;
+    height: auto;
 }
 
 .about-p {
     width: 80%;
     margin-top: -50px;
+}
+
+@media screen and (max-width: 900px) {
+
+.about-grid{
+    width: auto;
+    height: auto;
+    }
+.profile-img{
+    width:auto;
+}
+.about-title{
+    width: auto;
+    margin: auto;
+    font-size: 50px;
+    }
+
+.about-p{
+    font-size:15px;
+    margin: auto;
+    width: auto;
+    height:auto;
+    }
 }
