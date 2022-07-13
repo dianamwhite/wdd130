@@ -185,8 +185,56 @@ nav a:hover{
     margin-top: -50px;
 }
 
+/*subpage 2 - phblog*/
 
+#blog1{
+    grid-row: 1/2;
+    margin: 30px;
+/* inside the section*/
+    width: 1300px;
+    display: grid;
+    grid-column: 1fr 1fr;
+}
 
+.desk-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width:auto;
+}
+
+.phblog1-h2, .phblog1-p{
+    grid-column: 2/3;
+    grid-row:1/2 ;
+    margin: 80px;
+}
+
+.phblog1-p{
+    padding-top: 70px;
+}
+
+ #blog2{
+     grid-row: 2/3;
+     margin: 30px;
+/* inside the section*/
+     width: 1300px;
+     display: grid;
+     grid-column: 1fr 1fr;
+ }
+
+.bike-img{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.phblog2-h2, .phblog2-p{
+    grid-column: 1/2;
+    grid-row:1/2 ;
+    margin: 80px;
+}
+
+.phblog2-p{
+    padding-top: 70px;
+}
 
 @media screen and (max-width: 900px) {
 
