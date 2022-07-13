@@ -193,6 +193,15 @@ nav a:hover{
     grid-template-columns: 1fr 1fr;
 }
 
+#phblog-h1{
+    padding: 80px auto;
+    text-align: center;
+}
+
+.pb-h1{
+    font-size: 70px;
+}
+
 .blog1{
     grid-column: 2/3;
     grid-row: 1/2;
