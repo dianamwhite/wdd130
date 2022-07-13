@@ -193,13 +193,15 @@ nav a:hover{
     grid-template-columns: 1fr 1fr;
 }
 
-#phblog-h1{
-    padding-top: 30px;
+#pb-blog{
     text-align: center;
+    padding-top: 80px;
 }
 
-.pb-h1{
-    font-size: 70px;
+.pb-title{
+    font-family: "Cormorant Garamond", bold;
+    font-size: 90px;
+    color:#fefae0;
 }
 
 .blog1{
