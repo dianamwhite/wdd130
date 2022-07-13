@@ -188,7 +188,6 @@ nav a:hover{
 /*subpage 2 - phblog*/
 
 .phblog-grid{
-    border: 2px solid white;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
