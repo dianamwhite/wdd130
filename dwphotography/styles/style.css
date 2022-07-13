@@ -195,13 +195,14 @@ nav a:hover{
 
 #pb-blog{
     text-align: center;
-    padding-top: 80px;
+    margin: 150px;
 }
 
 .pb-title{
     font-family: "Cormorant Garamond", bold;
     font-size: 90px;
     color:#fefae0;
+    opacity: 55%;
 }
 
 .blog1{
