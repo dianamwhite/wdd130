@@ -286,6 +286,19 @@ p{
 }
  /*about*/
 
- 
+.profile-img{
+    width: 100%;
+}
+
+.about-title {
+    font-size: 75px;
+    text-align: center;
+}
+
+.about-p{
+    font-size: 15px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
 
 }
